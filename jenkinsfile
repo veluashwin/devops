@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "ashwin211204/my-app"
         REGISTRY = "docker.io"
-        DOCKER_CREDENTIALS_ID = "docker-hub-credentials"
+        DOCKER_CREDENTIALS_ID = "docker-hub"
         GITHUB_CREDENTIALS_ID = "git"
         APP_DIR = "/opt/docker-kec"
     }
